@@ -86,7 +86,7 @@ async function handleSend() {
   setDraft("");
 
   try {
-    const response = await axios.post("http://192.168.56.1:5000/api/estate/ask", {
+    const response = await axios.post("https://botservice-sq7z.onrender.com/api/estate/ask", {
       question: text,
     });
 
