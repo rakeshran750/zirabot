@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an Axios instance
 const api = axios.create({
-  baseURL: "http://192.168.56.1:5000", 
+  baseURL: "https://botservice-sq7z.onrender.com", 
   headers: {
     "Content-Type": "application/json",
   },
