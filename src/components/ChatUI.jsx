@@ -1,5 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { apiRequest } from "../utils/apiRequest"; 
+import React, { useState } from "react";
 import axios from "axios";
 import Sidebar from "./Sidebar.jsx";
 import ChatBox from "./ChatBox.jsx";
